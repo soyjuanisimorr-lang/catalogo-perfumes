@@ -6,10 +6,10 @@
 <title>Catálogo Perfumes Árabes</title>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
 <style>
-:root{--gold:#c9a84c;--gold-light:#e8c97a;--gold-dark:#8b6914;--dark:#060d06;--dark2:#0b150b;--dark3:#111a11;--dark4:#162016;--text-light:#f0e6d0;--text-muted:#8a7a64}
+:root{--gold:#c9a84c;--gold-light:#e8c97a;--gold-dark:#8b6914;--dark:#0c1e0c;--dark2:#102610;--dark3:#183018;--dark4:#1e3c1e;--text-light:#f0e6d0;--text-muted:#8a7a64}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:var(--dark);color:var(--text-light);font-family:'Cormorant Garamond',Georgia,serif;min-height:100vh}
-.hero{position:relative;background:#060d06;overflow:hidden;display:flex;align-items:center;min-height:380px;padding:80px 5% 80px 6%}
+.hero{position:relative;background:#0c1e0c;overflow:hidden;display:flex;align-items:center;min-height:380px;padding:80px 5% 80px 6%}
 .hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent 0%,var(--gold-dark) 20%,var(--gold) 50%,var(--gold-dark) 80%,transparent 100%)}
 .hero-beam{position:absolute;top:0;pointer-events:none}
 .hero-beam-a{right:34%;width:220px;height:110%;background:linear-gradient(175deg,rgba(201,168,76,.09) 0%,transparent 65%);transform:skewX(12deg);transform-origin:top}
@@ -47,16 +47,16 @@ body{background:var(--dark);color:var(--text-light);font-family:'Cormorant Garam
 .card:hover{transform:translateY(-8px);box-shadow:0 30px 80px rgba(0,0,0,.75),0 0 40px rgba(201,168,76,.07);border-color:rgba(201,168,76,.28)}
 .card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold-dark),transparent);opacity:0;transition:opacity .35s}
 .card:hover::before{opacity:1}
-.card-arrow{position:absolute;top:14px;right:14px;width:26px;height:26px;border:1px solid rgba(201,168,76,.3);background:rgba(6,13,6,.6);display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:.7rem;opacity:0;transition:opacity .3s,transform .3s;transform:translateY(4px);z-index:6;backdrop-filter:blur(4px)}
+.card-arrow{position:absolute;top:14px;right:14px;width:26px;height:26px;border:1px solid rgba(201,168,76,.3);background:rgba(12,30,12,.65);display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:.7rem;opacity:0;transition:opacity .3s,transform .3s;transform:translateY(4px);z-index:6;backdrop-filter:blur(4px)}
 .card:hover .card-arrow{opacity:1;transform:translateY(0)}
-.card-img-wrap{background:linear-gradient(180deg,#0d1a0d,#060e06);height:260px;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
+.card-img-wrap{background:linear-gradient(180deg,#162e16,#0c1e0c);height:260px;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
 .card-img-wrap::after{content:'';position:absolute;bottom:0;left:0;right:0;height:50px;background:linear-gradient(0deg,var(--dark3),transparent);pointer-events:none}
 .card-img-wrap img{height:220px;width:auto;max-width:88%;object-fit:contain;filter:drop-shadow(0 12px 28px rgba(0,0,0,.85));transition:transform .5s cubic-bezier(.25,.46,.45,.94)}
 .card:hover .card-img-wrap img{transform:scale(1.07) translateY(-4px)}
 .gender-badge{position:absolute;top:12px;left:12px;padding:3px 10px;font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.14em;text-transform:uppercase;border:1px solid;backdrop-filter:blur(4px)}
-.badge-mujer{color:#d4a0b0;border-color:rgba(212,160,176,.4);background:rgba(6,13,6,.72)}
-.badge-hombre{color:#7ab4d4;border-color:rgba(122,180,212,.4);background:rgba(6,13,6,.72)}
-.badge-unisex{color:var(--gold);border-color:rgba(201,168,76,.4);background:rgba(6,13,6,.72)}
+.badge-mujer{color:#d4a0b0;border-color:rgba(212,160,176,.4);background:rgba(12,30,12,.80)}
+.badge-hombre{color:#7ab4d4;border-color:rgba(122,180,212,.4);background:rgba(12,30,12,.80)}
+.badge-unisex{color:var(--gold);border-color:rgba(201,168,76,.4);background:rgba(12,30,12,.80)}
 .card-body{padding:20px 22px 22px;position:relative}
 .card-brand{font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:7px;opacity:.75}
 .card-name{font-size:1.2rem;font-weight:600;color:var(--text-light);line-height:1.25;margin-bottom:12px}
