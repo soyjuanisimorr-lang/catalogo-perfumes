@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Catálogo Perfumes Árabes</title>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Great+Vibes&display=swap" rel="stylesheet">
 <style>
 :root{--gold:#c9a84c;--gold-light:#e8c97a;--gold-dark:#8b6914;--dark:#0c1e0c;--dark2:#102610;--dark3:#183018;--dark4:#1e3c1e;--text-light:#f0e6d0;--text-muted:#8a7a64}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -16,9 +16,9 @@ body{background:var(--dark);color:var(--text-light);font-family:'Cormorant Garam
 .hero-beam-b{right:40%;width:100px;height:90%;background:linear-gradient(175deg,rgba(201,168,76,.05) 0%,transparent 55%);transform:skewX(-8deg);transform-origin:top}
 .hero-content{flex:1;max-width:640px;z-index:2;position:relative}
 .hero-eyebrow{font-family:'Cinzel',serif;font-size:.62rem;letter-spacing:.38em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:24px;opacity:.8}
-.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.8rem,6.5vw,5.5rem);font-weight:300;font-style:italic;color:var(--text-light);line-height:1.0;margin-bottom:20px;letter-spacing:-.01em}
-.hero h1 strong{font-style:normal;font-weight:700;color:var(--gold-light);display:block}
-.hero-sub{font-family:'Cormorant Garamond',serif;font-size:clamp(.88rem,1.4vw,1.08rem);font-weight:300;font-style:italic;color:var(--text-muted);letter-spacing:.1em;max-width:440px;line-height:1.9;margin-bottom:36px}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.6rem,6vw,5rem);font-weight:400;font-style:italic;color:var(--text-light);line-height:1.05;margin-bottom:6px;letter-spacing:-.01em}
+.hero h1 strong{font-family:'Playfair Display',serif;font-style:normal;font-weight:900;color:var(--text-light);display:block;letter-spacing:.03em;text-transform:uppercase;font-size:.92em}
+.hero-script{font-family:'Great Vibes',cursive;font-size:clamp(1.5rem,2.8vw,2.2rem);color:var(--gold);margin-bottom:22px;letter-spacing:.02em;opacity:.88;line-height:1.2}.hero-sub{font-family:'Cormorant Garamond',serif;font-size:clamp(.88rem,1.4vw,1.08rem);font-weight:300;font-style:italic;color:var(--text-muted);letter-spacing:.1em;max-width:440px;line-height:1.9;margin-bottom:36px}
 .hero-scroll{display:flex;align-items:center;gap:14px}
 .hero-scroll-label{font-family:'Cinzel',serif;font-size:.56rem;letter-spacing:.38em;text-transform:uppercase;color:var(--gold-dark);opacity:.6}
 .hero-scroll-line{width:50px;height:1px;background:linear-gradient(90deg,var(--gold-dark),transparent)}
@@ -40,7 +40,7 @@ body{background:var(--dark);color:var(--text-light);font-family:'Cormorant Garam
 .filter-btn.active{color:var(--gold-light);opacity:1;border-bottom-color:var(--gold)}
 .brand-section{padding:0 32px 60px}
 .brand-header{display:flex;align-items:center;gap:24px;padding:54px 16px 30px}
-.brand-header h3{font-family:'Cinzel',serif;font-size:clamp(1rem,2.2vw,1.5rem);font-weight:400;color:var(--gold);letter-spacing:.38em;text-transform:uppercase;white-space:nowrap;opacity:.8}
+.brand-header h3{font-family:'Playfair Display',serif;font-size:clamp(1rem,2.2vw,1.4rem);font-weight:700;color:var(--gold);letter-spacing:.18em;text-transform:uppercase;white-space:nowrap;opacity:.85}
 .brand-rule{flex:1;height:1px;background:linear-gradient(90deg,rgba(201,168,76,.2),transparent)}
 .perfume-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:28px;max-width:1440px;margin:0 auto}
 .card{background:var(--dark3);border:1px solid rgba(201,168,76,.1);transition:transform .4s cubic-bezier(.25,.46,.45,.94),box-shadow .4s,border-color .4s;position:relative;overflow:hidden;cursor:pointer}
@@ -59,7 +59,7 @@ body{background:var(--dark);color:var(--text-light);font-family:'Cormorant Garam
 .badge-unisex{color:var(--gold);border-color:rgba(201,168,76,.4);background:rgba(12,30,12,.80)}
 .card-body{padding:20px 22px 22px;position:relative}
 .card-brand{font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:7px;opacity:.75}
-.card-name{font-size:1.2rem;font-weight:600;color:var(--text-light);line-height:1.25;margin-bottom:12px}
+.card-name{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:600;color:var(--text-light);line-height:1.25;margin-bottom:12px}
 .card-divider{width:28px;height:1px;background:var(--gold-dark);margin:12px 0;opacity:.45}
 .card-specs{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px}
 .spec-pill{font-size:.66rem;padding:3px 10px;background:rgba(201,168,76,.04);border:1px solid rgba(201,168,76,.13);color:var(--text-muted);letter-spacing:.06em}
@@ -86,6 +86,7 @@ body{background:var(--dark);color:var(--text-light);font-family:'Cormorant Garam
   <div class="hero-content">
     <p class="hero-eyebrow">✦ Colección Exclusiva &nbsp;·&nbsp; Perfumes Árabes Originales ✦</p>
     <h1>El Arte del<strong>Perfume Árabe.</strong></h1>
+    <p class="hero-script">desde Oriente</p>
     <p class="hero-sub">Fragancias auténticas de Oriente, elaboradas con los ingredientes más nobles del mundo.</p>
     <div class="hero-scroll">
       <span class="hero-scroll-label">Explorar Colección</span>
