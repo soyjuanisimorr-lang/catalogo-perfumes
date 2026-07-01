@@ -6,10 +6,10 @@
 <title>Catálogo Perfumes Árabes</title>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Great+Vibes&display=swap" rel="stylesheet">
 <style>
-:root{--gold:#c9a84c;--gold-light:#e8c97a;--gold-dark:#8b6914;--dark:#152a15;--dark2:#192e19;--dark3:#1d351d;--dark4:#243e24;--text-light:#f0e6d0;--text-muted:#8a7a64}
-*{margin:0;padding:0;box-sizing:border-box}body::before{content:'';position:fixed;top:0;left:0;right:0;bottom:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");opacity:.07;pointer-events:none;z-index:0}
-body{background:var(--dark);color:var(--text-light);font-family:'Cormorant Garamond',Georgia,serif;min-height:100vh}
-.hero{position:relative;background:#152a15;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-height:380px;padding:70px 5%}
+:root{--gold:#c9a84c;--gold-light:#e8c97a;--gold-dark:#8b6914;--dark:#162e1c;--dark2:#1c3822;--dark3:#213e28;--dark4:#294e30;--text-light:#f0e6d0;--text-muted:#8a7a64}
+*{margin:0;padding:0;box-sizing:border-box}body::before{content:'';position:fixed;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse at 22% 12%,rgba(255,255,255,.045) 0%,transparent 52%),radial-gradient(ellipse at 78% 88%,rgba(255,255,255,.03) 0%,transparent 45%),radial-gradient(ellipse at 55% 50%,rgba(0,0,0,.18) 0%,transparent 60%),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Cfilter id='v'%3E%3CfeTurbulence type='turbulence' baseFrequency='0.28 0.04' numOctaves='8' seed='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='600' height='600' filter='url(%23v)' opacity='1'/%3E%3C/svg%3E");opacity:.11;pointer-events:none;z-index:0}
+body{background:var(--dark);background-image:radial-gradient(ellipse at 15% 8%,rgba(60,120,70,.12) 0%,transparent 40%),radial-gradient(ellipse at 85% 92%,rgba(30,80,45,.1) 0%,transparent 45%);color:var(--text-light);font-family:'Cormorant Garamond',Georgia,serif;min-height:100vh}
+.hero{position:relative;background:#162e1c;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-height:380px;padding:70px 5%}
 .hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent 0%,var(--gold-dark) 20%,var(--gold) 50%,var(--gold-dark) 80%,transparent 100%)}
 .hero-beam{position:absolute;top:0;pointer-events:none}
 .hero-beam-a{right:34%;width:220px;height:110%;background:linear-gradient(175deg,rgba(201,168,76,.09) 0%,transparent 65%);transform:skewX(12deg);transform-origin:top}
@@ -47,16 +47,16 @@ body{background:var(--dark);color:var(--text-light);font-family:'Cormorant Garam
 .card:hover{transform:translateY(-8px);box-shadow:0 30px 80px rgba(0,0,0,.75),0 0 40px rgba(201,168,76,.07);border-color:rgba(201,168,76,.28)}
 .card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold-dark),transparent);opacity:0;transition:opacity .35s}
 .card:hover::before{opacity:1}
-.card-arrow{position:absolute;top:14px;right:14px;width:26px;height:26px;border:1px solid rgba(201,168,76,.3);background:rgba(21,42,21,.68);display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:.7rem;opacity:0;transition:opacity .3s,transform .3s;transform:translateY(4px);z-index:6;backdrop-filter:blur(4px)}
+.card-arrow{position:absolute;top:14px;right:14px;width:26px;height:26px;border:1px solid rgba(201,168,76,.3);background:rgba(22,46,28,.70);display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:.7rem;opacity:0;transition:opacity .3s,transform .3s;transform:translateY(4px);z-index:6;backdrop-filter:blur(4px)}
 .card:hover .card-arrow{opacity:1;transform:translateY(0)}
-.card-img-wrap{background:linear-gradient(180deg,#1d351d,#152a15);height:260px;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
+.card-img-wrap{background:linear-gradient(180deg,#213e28,#162e1c);height:260px;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
 .card-img-wrap::after{content:'';position:absolute;bottom:0;left:0;right:0;height:50px;background:linear-gradient(0deg,var(--dark3),transparent);pointer-events:none}
 .card-img-wrap img{height:220px;width:auto;max-width:88%;object-fit:contain;filter:drop-shadow(0 12px 28px rgba(0,0,0,.85));transition:transform .5s cubic-bezier(.25,.46,.45,.94)}
 .card:hover .card-img-wrap img{transform:scale(1.07) translateY(-4px)}
 .gender-badge{position:absolute;top:12px;left:12px;padding:3px 10px;font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.14em;text-transform:uppercase;border:1px solid;backdrop-filter:blur(4px)}
-.badge-mujer{color:#d4a0b0;border-color:rgba(212,160,176,.4);background:rgba(21,42,21,.82)}
-.badge-hombre{color:#7ab4d4;border-color:rgba(122,180,212,.4);background:rgba(21,42,21,.82)}
-.badge-unisex{color:var(--gold);border-color:rgba(201,168,76,.4);background:rgba(21,42,21,.82)}
+.badge-mujer{color:#d4a0b0;border-color:rgba(212,160,176,.4);background:rgba(22,46,28,.84)}
+.badge-hombre{color:#7ab4d4;border-color:rgba(122,180,212,.4);background:rgba(22,46,28,.84)}
+.badge-unisex{color:var(--gold);border-color:rgba(201,168,76,.4);background:rgba(22,46,28,.84)}
 .card-body{padding:20px 22px 22px;position:relative}
 .card-brand{font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:7px;opacity:.75}
 .card-name{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:600;color:var(--text-light);line-height:1.25;margin-bottom:12px}
